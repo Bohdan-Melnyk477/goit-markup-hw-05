@@ -569,7 +569,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-icon:focus {
-  fill: #4d5ae5;
+  background-color: #4d5ae5;
 }
 .form-textarea {
   width: 100%;
@@ -585,6 +585,9 @@ img {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form-input:focus + .modal-form-icon {
+  fill: #4d5ae5;
 }
 .form-textarea:focus {
   border-color: #4d5ae5;
