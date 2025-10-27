@@ -490,10 +490,39 @@ img {
 }
 
 .modal-button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+
+  width: 24;
+  height: 24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  color: #111111;
+  transition: color 250ms ease-in;
+}
+.modal-button:hover,
+.modal-button:focus {
+  color: #404bbf;
 }
 .modal-btn-icon {
+  stroke: currentColor;
 }
 .modal-caption {
 }
 .modal-form {
+}
+
+.modal-form-field {
+}
+.modal-form-label {
+}
+.modal-form-wrapper {
+}
+.modal-form-input {
+}
+.modal-form-icon {
 }
