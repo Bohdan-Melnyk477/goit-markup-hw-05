@@ -572,9 +572,6 @@ img {
 .modal-form-icon:focus {
   fill: #4d5ae5;
 }
-.modal-form-field {
-  margin-bottom: 16px;
-}
 .form-textarea {
   width: 100%;
   height: 120px;
