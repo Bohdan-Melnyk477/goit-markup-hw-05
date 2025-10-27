@@ -466,3 +466,34 @@ img {
 .footer-link-icons:focus {
   background-color: #31d0aa;
 }
+
+/* Modal */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(46, 47, 66, 0.4);
+}
+.modal {
+  width: 408px;
+  min-height: 584px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  background-color: #fcfcfc;
+  border-radius: 4px;
+}
+
+.modal-button {
+}
+.modal-btn-icon {
+}
+.modal-caption {
+}
+.modal-form {
+}
