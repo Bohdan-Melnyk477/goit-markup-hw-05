@@ -663,6 +663,12 @@ img {
   margin-bottom: 24px;
 }
 .form-input-privacy {
+  color: #111111;
+}
+.form-input-privacy:checked + .form-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 .form-label-privacy {
   font-size: 12px;
@@ -682,6 +688,9 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+.form-href {
+  color: #4d5ae5;
 }
 .form-icon {
 }
